@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# 🔭 AgentObserver
+# AgentObserver
 
 **Real-time observability and auto-debugging for AI agents.**
 
@@ -24,10 +23,10 @@ Companies deploying agents have no easy way to:
 
 Wrap any agent tool call with `observer.monitor_step()` and get:
 
-- ✅ **Real-time failure alerts** — loops, timeouts, tool errors, empty outputs, hallucination risks
-- 📋 **Auto-generated postmortem reports** — powered by Claude API, explains root cause + fix
-- 📊 **Session logs** — full JSON trace of every step with status and failure reason
-- 🖥️ **Dashboard** — visual analytics of agent behavior over time
+-  **Real-time failure alerts** — loops, timeouts, tool errors, empty outputs, hallucination risks
+-  **Auto-generated postmortem reports** — powered by Claude API, explains root cause + fix
+-  **Session logs** — full JSON trace of every step with status and failure reason
+-  **Dashboard** — visual analytics of agent behavior over time
 
 ---
 
@@ -80,7 +79,7 @@ print_postmortem(summary, api_key=ANTHROPIC_API_KEY)
 **Output when failure detected:**
 ```
 =======================================================
-🚨  AGENT OBSERVER ALERT — MyAgent
+  AGENT OBSERVER ALERT — MyAgent
 =======================================================
   Step     : #4 — web_search
   Status   : LOOP_DETECTED
@@ -97,7 +96,7 @@ print_postmortem(summary, api_key=ANTHROPIC_API_KEY)
 After each session, AgentObserver uses Claude API to generate:
 
 ```
-📋 POSTMORTEM REPORT
+ POSTMORTEM REPORT
 ────────────────────────────────────────
 1. Summary
    Agent got stuck in an infinite search loop on Step 4, 
@@ -164,8 +163,7 @@ This project is inspired by open research challenges in agentic AI reliability:
 
 ## Author
 
-Built by [Your Name] — open to contributions, issues, and PRs!
+Built by Mannya — open to contributions, issues, and PRs!
 =======
 # agent-observer
 Real-time observability and auto-debugging toolkit for AI agents
->>>>>>> eb90beef3fa3fc4e66c16fda1b867e6485da35c3
