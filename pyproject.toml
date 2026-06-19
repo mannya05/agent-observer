@@ -4,7 +4,7 @@ build-backend = "setuptools.backends.legacy:build"
 
 [project]
 name = "agent-observer-ai"
-version = "0.1.0"
+version = "1.0.1"
 description = "Real-time observability and auto-debugging toolkit for AI agents"
 readme = "README.md"
 license = {file = "LICENSE"}
