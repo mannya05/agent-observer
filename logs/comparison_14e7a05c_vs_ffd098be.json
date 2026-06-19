@@ -1,0 +1,30 @@
+{
+  "agent_a": {
+    "name": "ReliableAgent-v1",
+    "session_id": "14e7a05c",
+    "total_steps": 5,
+    "successful_steps": 5,
+    "failed_steps": 0,
+    "failure_rate": "0.0%",
+    "total_retries": 0,
+    "avg_duration_ms": 320.62,
+    "score": 100
+  },
+  "agent_b": {
+    "name": "FlakyAgent-v1",
+    "session_id": "ffd098be",
+    "total_steps": 5,
+    "successful_steps": 4,
+    "failed_steps": 1,
+    "failure_rate": "20.0%",
+    "total_retries": 5,
+    "avg_duration_ms": 720.45,
+    "score": 0
+  },
+  "winners": {
+    "failure_rate": "ReliableAgent-v1",
+    "speed": "ReliableAgent-v1",
+    "retries": "ReliableAgent-v1",
+    "overall": "ReliableAgent-v1"
+  }
+}

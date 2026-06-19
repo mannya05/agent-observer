@@ -1,0 +1,98 @@
+{
+  "session_id": "e376f627",
+  "agent_name": "ResearchAgent-v1",
+  "total_steps": 7,
+  "successful_steps": 5,
+  "failed_steps": 2,
+  "failure_rate": "28.6%",
+  "total_retries": 7,
+  "failure_breakdown": {
+    "max_retries_exceeded": 2
+  },
+  "steps": [
+    {
+      "id": "c835fc00",
+      "step_number": 1,
+      "action": "web_search",
+      "input": "AI agent trends 2026",
+      "output": "Search results for: AI agent trends 2026 \u2014 Found 5 relevant articles.",
+      "duration_ms": 0.0,
+      "timestamp": "2026-06-18T01:49:26.694274",
+      "status": "success",
+      "failure_reason": null,
+      "retry_count": 1
+    },
+    {
+      "id": "62eac3d1",
+      "step_number": 2,
+      "action": "web_search",
+      "input": "enterprise AI market size",
+      "output": "None",
+      "duration_ms": 0.0,
+      "timestamp": "2026-06-18T01:49:30.204296",
+      "status": "max_retries_exceeded",
+      "failure_reason": "Failed after 3 retries. Last error: Search API is completely down",
+      "retry_count": 3
+    },
+    {
+      "id": "04fdddbe",
+      "step_number": 3,
+      "action": "web_search",
+      "input": "stuck query",
+      "output": "Search results for: stuck query \u2014 Found 5 relevant articles.",
+      "duration_ms": 0.0,
+      "timestamp": "2026-06-18T01:49:30.248870",
+      "status": "success",
+      "failure_reason": null,
+      "retry_count": 0
+    },
+    {
+      "id": "786fd282",
+      "step_number": 4,
+      "action": "web_search",
+      "input": "stuck query",
+      "output": "Search results for: stuck query \u2014 Found 5 relevant articles.",
+      "duration_ms": 0.0,
+      "timestamp": "2026-06-18T01:49:30.248870",
+      "status": "success",
+      "failure_reason": null,
+      "retry_count": 0
+    },
+    {
+      "id": "e7edb009",
+      "step_number": 5,
+      "action": "web_search",
+      "input": "stuck query",
+      "output": "Search results for: stuck query \u2014 Found 5 relevant articles.",
+      "duration_ms": 0.0,
+      "timestamp": "2026-06-18T01:49:30.248870",
+      "status": "success",
+      "failure_reason": null,
+      "retry_count": 0
+    },
+    {
+      "id": "d7893e4c",
+      "step_number": 6,
+      "action": "slow_analysis_tool",
+      "input": "analyze everything",
+      "output": "Finally done.",
+      "duration_ms": 12006.26,
+      "timestamp": "2026-06-18T01:50:21.761454",
+      "status": "max_retries_exceeded",
+      "failure_reason": "Failed after 3 retries. Last error: Step exceeded timeout threshold (5.0s). Took 12.01s",
+      "retry_count": 3
+    },
+    {
+      "id": "448b3538",
+      "step_number": 7,
+      "action": "summarizer",
+      "input": "AI agents in 2026 are transforming enterprise workflows.",
+      "output": "Summary: AI agents in 2026 are transforming enterprise workflows....",
+      "duration_ms": 0.0,
+      "timestamp": "2026-06-18T01:50:21.765458",
+      "status": "success",
+      "failure_reason": null,
+      "retry_count": 0
+    }
+  ]
+}

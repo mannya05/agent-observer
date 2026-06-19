@@ -1,0 +1,87 @@
+{
+  "session_id": "7e860d8d",
+  "agent_name": "ResearchAgent-LangChain",
+  "total_steps": 7,
+  "successful_steps": 4,
+  "failed_steps": 3,
+  "failure_rate": "42.9%",
+  "steps": [
+    {
+      "id": "836d221b",
+      "step_number": 1,
+      "action": "web_search",
+      "input": "(see previous on_tool_start)",
+      "output": "Found 12 relevant articles on AI agent market trends.",
+      "duration_ms": 400.55,
+      "timestamp": "2026-06-19T14:53:36.159144",
+      "status": "success",
+      "failure_reason": null
+    },
+    {
+      "id": "4debe54c",
+      "step_number": 2,
+      "action": "database_lookup",
+      "input": "(see previous on_tool_start)",
+      "output": null,
+      "duration_ms": 100.64,
+      "timestamp": "2026-06-19T14:53:36.259779",
+      "status": "tool_failure",
+      "failure_reason": "Tool raised exception: Database connection refused \u2014 timeout after 30s"
+    },
+    {
+      "id": "faaecf09",
+      "step_number": 3,
+      "action": "slow_analysis",
+      "input": "(see previous on_tool_start)",
+      "output": "Analysis complete.",
+      "duration_ms": 6000.44,
+      "timestamp": "2026-06-19T14:53:42.463250",
+      "status": "timeout",
+      "failure_reason": "Tool 'slow_analysis' exceeded timeout (5.0s). Took 6.00s"
+    },
+    {
+      "id": "3abc00e9",
+      "step_number": 4,
+      "action": "web_search",
+      "input": "(see previous on_tool_start)",
+      "output": "Same results as before.",
+      "duration_ms": 100.64,
+      "timestamp": "2026-06-19T14:53:42.564909",
+      "status": "success",
+      "failure_reason": null
+    },
+    {
+      "id": "59b83f61",
+      "step_number": 5,
+      "action": "web_search",
+      "input": "(see previous on_tool_start)",
+      "output": "Same results as before.",
+      "duration_ms": 100.7,
+      "timestamp": "2026-06-19T14:53:42.665610",
+      "status": "success",
+      "failure_reason": null
+    },
+    {
+      "id": "e5386f59",
+      "step_number": 6,
+      "action": "web_search",
+      "input": "same query stuck",
+      "output": null,
+      "duration_ms": 0,
+      "timestamp": "2026-06-19T14:53:42.665610",
+      "status": "loop_detected",
+      "failure_reason": "Tool 'web_search' called 3x with identical input \u2014 agent stuck in loop"
+    },
+    {
+      "id": "304cc3c5",
+      "step_number": 7,
+      "action": "web_search",
+      "input": "(see previous on_tool_start)",
+      "output": "Same results as before.",
+      "duration_ms": 101.21,
+      "timestamp": "2026-06-19T14:53:42.766819",
+      "status": "success",
+      "failure_reason": null
+    }
+  ]
+}
