@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="agent-observer-ai",
-    version="0.1.0",
+    version="1.0.1",
     author="Manya",
     description="Real-time observability and auto-debugging toolkit for AI agents",
     long_description=long_description,
