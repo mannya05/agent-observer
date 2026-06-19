@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🔭 AgentObserver
 
 **Real-time observability and auto-debugging for AI agents.**
@@ -164,3 +165,7 @@ This project is inspired by open research challenges in agentic AI reliability:
 ## Author
 
 Built by [Your Name] — open to contributions, issues, and PRs!
+=======
+# agent-observer
+Real-time observability and auto-debugging toolkit for AI agents
+>>>>>>> eb90beef3fa3fc4e66c16fda1b867e6485da35c3
