@@ -2,7 +2,7 @@
 
 > **Real-time observability, auto-debugging, and evaluation toolkit for AI agents.**
 
-[![PyPI version](https://badge.fury.io/py/agent-observer.svg)](https://badge.fury.io/py/agent-observer)(https://pypi.org/project/agent-observer/)
+[![PyPI version](https://badge.fury.io/py/agent-observer.svg)](https://pypi.org/project/agent-observer/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
